@@ -1,12 +1,8 @@
 # [패스츄리 도서관] 자향환담 프로젝트 / 오르골 플레이어
 
+디자인/개발 모두 작업
 
+React + Vite를 사용한 홈페이지 입니다. 모바일 버전에 최적화 되어있습니다.
 
-React + Vite
+- [사용한 모듈] react-h5-audio-player
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
