@@ -1,4 +1,8 @@
-# React + Vite
+# [패스츄리 도서관] 자향환담 프로젝트 / 오르골 플레이어
+
+
+
+React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
