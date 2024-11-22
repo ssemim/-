@@ -1,0 +1,168 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'DungGeunMo';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.wrapper{
+
+  margin:0;
+  height: 99vh;
+  position:relative;
+  background:url("/backGroundPix.png") no-repeat center;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+.playListBody{
+
+  font-family: 'DungGeunMo';
+  position:absolute;
+  width:80vw;
+  height:90vh;
+  transform: translate(-50%, -50%);
+  top:50%;
+  left:50%;
+  border:solid;
+  border-color:white;
+  background-color:rgba(211,230,250,0.7);
+  border-radius:5px;
+
+}
+
+
+.AlbumImage{
+
+  height:30vh;
+  margin-left:5vw;
+  margin-right:5vw;
+  margin-top:2vh;
+  background-color:rgba(124,157,207,0.6);
+  text-align:center;
+  border-radius:5px;
+  align-content:center;
+  justify-items:center;
+
+}
+
+.icons{
+
+  inline-size:-webkit-fill-available;
+
+}
+
+.imgandpass{
+
+  display:flex;
+  justify-content:center;
+
+  
+}
+
+
+.passing{
+  height:20vh;
+  padding-top:1em;
+padding-bottom:1em;
+align-content:center;
+cursor:pointer;
+}
+
+
+.SongName{
+
+  height:8vh;
+  margin-left:5vw;
+  margin-right:5vw;
+  margin-top:1vh;
+  margin-bottom:1vh;
+  font-size:large;
+  background-color:rgba(255,255,255,0.6);
+  border-radius:5px;
+
+  text-align:center;
+  align-content:center;
+  margin-top:inherit;
+margin-bottom:inherit;
+
+
+}
+
+.NowPlaying{
+
+  margin-top:5vh;
+  margin-left:5vw;
+  margin-right:5vw;
+
+  height:80vh;
+  padding-bottom:2vh;
+
+}
+
+.IMG{
+
+height:20vh;
+padding-top:1em;
+padding-bottom:1em;
+
+}
+
+.PlayList{
+
+height:30vh;
+margin-left:5vw;
+margin-right:5vw;
+padding-top:2vh;
+padding-bottom:2vh;
+margin-bottom:5vh;
+background-color:rgba(39,56,116,0.8);
+align-content:center;
+border-radius:5px;
+
+text-align:left;
+padding-left:3vw;
+
+overflow-y: scroll;
+
+}
+
+
+.li{
+
+  font-size:small;
+  padding-top:3vh;
+  padding-bottom:3vh;
+  border-bottom:solid;
+  cursor:pointer;
+  color:rgba(155,184,226,0.8);
+  padding-left:2vw;
+  padding-right:2vw;
+  display:flex;
+  inline-size:-webkit-fill-available;
+
+
+}
+
+.li:hover{
+  color:#fff;
+}
+
+.songs{
+
+  padding-right:2em;
+}
+
+
+.download:hover{
+  color:#ff0;
+}
